@@ -147,19 +147,19 @@ iframe{
     transition: background 0.3s ease-in-out;
 }
 #battleship{
-    background-image: url('/resources/sea-battle-board-game-vector-600nw-1672369615.jpg.webp');;
+    background-image: url('resources/sea-battle-board-game-vector-600nw-1672369615.jpg.webp');;
     background-size: cover;
 }
 #colorstack{
-    background-image: url('/resources/images2.png');
+    background-image: url('resources/images2.png');
     background-size: cover;
 }
 #encrypter{
-    background-image: url('/resources/shutterstock-encryption-logo.jpg.webp');;
+    background-image: url('resources/shutterstock-encryption-logo.jpg.webp');;
     background-size: cover; 
 }
 #akinator{
-    background-image: url('/resources/unnamed.png');;
+    background-image: url('resources/unnamed.png');;
     background-size: cover; 
 }
 #projects a{
