@@ -1,57 +1,70 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hailie Jiménez CV</title>
-    
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
 </head>
 
 
-
 <body>
-    <section id="basicinformation">
-        <h1>Hailie Jiménez Martínez</h1>
-        <p>Estudiante tercer grado en Ingeniería en Computación.</p>
-    </section>
-    
-    <h3>Secciones:</h3>
-    <nav>
-        <ol>
-            <li><a href="#summary">Resumen profesional.</a></li>
-            <li><a href="#education">Educación. </a></li>
-            <li><a href="#skills">Habilidades.</a></li>
-            <li><a href="#certifications">Certificaciones.</a></li>
-            <li><a href="#projects">Proyectos.</a></li>
-        </ol>
-    </nav>
+    <section id="basicinformation" class="container">
+        <div id="description">
+            <h1 class="text">Meet Hailie Jimenez</h1>
+            <p class="text">[descripcion]</p>
+        </div>
 
-    <section id="summary">
-        <h3>Resumen profesional:</h3>
-        <p>Soy una estudiante de ingeniería en Computación en ESPOL, apasionada por el Front-End con conocimientos amplios en Back-End. 
-            Se me considera una persona creativa al momento de generar ideas para problemas actuales y en el diseño de la solución.
-        </p>
+        <div class="card"></div>
+        
+        <div id="skills" class=" card">
+            <p>skills </p>
+        </div>
     </section>
-    
+
+
+    <section>
+        <nav>
+            <ol>
+                <li><a href="#education">Educación</a></li>
+                <li><a href="#progskills">Herramientas dominadas</a></li>
+                <li><a href="#certifications">Certificaciones.</a></li>
+                <li><a href="#projects">Proyectos.</a></li>
+            </ol>
+        </nav>
+    </section>
+
     <section id="education">
-        <h3>Educación:</h3>
+        <h2 class="subtitle">Educación:</h2>
         <ol>
             <li>(2008 - 2022) Unidad Educativa Nuestra Madre de la Merced.</li>
-            <li>(2022 - Actualidad) Escuela Superior Politécnica del Litoral.</li>
+            <li>(2022 - Actualidad) Escuela Superiosr Politécnica del Litoral.</li>
         </ol>
     </section>
 
-    <section id="skills">
-        <h3>Habilidades:</h3>
-        <ul>
-            <li>Conocimientos en lenguajes de programación como Java, Python, C y mySQL y en lenguaje de etiqueta.</li>
-            <li>Prototipado de aplicaciones con Figma.</li>
-            <li>Liderazgo y perfeccionismo al tratar el trabajo en equipo.</li>
-            <li>Creación de documentos limpios y completos con el paquete de Office.</li>
-        </ul>
+    <section id="progskills">
+        <h2 class="subtitle">Herramientas que + uso:</h2>
+        <div id="tools">
+            <img src="/resources/JAVA.png.webp">
+            <img src="/resources/python-programming-language.webp">
+            <img src="/resources/13407c12f50f08d328800c3caef43f61.jpg">
+            <img src="/resources/J5Yt92WW_400x400.png">
+            <img src="/resources/Screenshot 2024-10-24 at 07.41.05.png">
+            <img src="/resources/images.png">
+        </div>
     </section>
 
     <section id="certifications">
-        <h3>Certifications:</h3>
+        <h2 class="subtitle">Certifications:</h2>
         <ul>
             <li>HTML full course, Udemy.</li>
             <li>Full Stack Developer, Udemy.</li>
@@ -59,40 +72,71 @@
     </section>
 
     <section id="projects">
-        <h3>Proyectos en los que he participado:</h3>
-        <ul>
-            <li><a href="https://github.com/se0klie/programaEncriptadorAESBLOWFISH">Programa</a> encriptador y desciptador de archivos con AES y BLOWFISH utilizando C.</li>
-            <li><a href="https://github.com/se0klie/BattleField-Assembly">Juego</a> Battlefield en lenguaje ensamblador.</li>
-            <li><a href="https://github.com/se0klie/AkinatorJavaVer">Juego</a> Akinator en Java.</li>
-        </ul>
+        <a href="https://github.com/se0klie/AkinatorJavaVer">
+            <div id="akinator" class="card">
+                <h2>Akinator</h2>
+            </div>
+        </a>
+
+        <a href="https://github.com/se0klie/BattleField-Assembly">
+            <div id="battleship" class="card">
+                <h2>Assembly</h2>
+            </div>
+        </a>
+
+        <a href="https://github.com/se0klie/programaEncriptadorAESBLOWFISH">
+            <div id="encrypter" class="card">
+                <h2>Akinator</h2>
+            </div>
+        </a>
+
+        <a href="https://github.com/se0klie/colorStack"> 
+            <div id="colorstack" class="card" src="https://github.com/se0klie/AkinatorJavaVer">
+                <h2>Akinator</h2>
+            </div>
+        </a>
     </section>
 
     <section id="suggestions">
-        <h3>Contáctame:</h3>
+        <h2 class="subtitle">Contáctame:</h2>
         <forms>
             <label>E-mail:</label>
             <input style="margin: 5px;" id="email" type="text">
             <label>Compañia:</label>
-            <input style="margin: 5px;" id="enterprise" type="text"> <br>
-            <input id="isempleado" type="radio">Empleado<br>
-            <input id="isempleador" type="radio">Empleador.<br>
+            <input style="margin: 5px;" id="enterprise" type="text">
+            <div>
+                <input id="isempleado" type="radio">Empleado<br>
+                <input id="isempleador" type="radio">Empleador.<br>
+            </div>
             <label>Motivo de contacto:</label>
             <textarea id="contact"></textarea>
             <button type="submit">Enviar</button>
         </forms>
     </section>
 
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ?si=hvn2hPX6-_kcFoIZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <section id="media">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ?si=hvn2hPX6-_kcFoIZ"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31896.282394477086!2d-79.96920843738263!3d-2.1401517183711802!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d72f63a84bb9b%3A0xcc923bf175c1350b!2sOficina%20de%20Admisiones%20ESPOL!5e0!3m2!1ses!2sec!4v1728501900769!5m2!1ses!2sec" width="560" height="315" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>    
-    
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31896.282394477086!2d-79.96920843738263!3d-2.1401517183711802!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d72f63a84bb9b%3A0xcc923bf175c1350b!2sOficina%20de%20Admisiones%20ESPOL!5e0!3m2!1ses!2sec!4v1728501900769!5m2!1ses!2sec"
+            width="560" height="315" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
     <footer>
         <p>Para mayor información:</p>
-        <ul>
-            <li><a href="https://github.com/se0klie">Github.</a></li>
-        </ul>
+        <div>
+            <ul>
+                <li><a href="https://github.com/se0klie">Github</a></li>
+                <li><a href="https://www.instagram.com/seoklie/">Instagram</a></li>
+                <li><a href="https://www.linkedin.com/in/hailie-jiménez-5b92822b3/">Linkedin</a></li>
+            </ul>
+        </div>
     </footer>
-    
+
 </body>
 
 </html>

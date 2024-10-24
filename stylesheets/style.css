@@ -1,0 +1,215 @@
+html {
+    scroll-behavior: smooth;
+}
+* {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-weight: bold;
+    color: #F2C335;
+    display: table-caption;
+    text-align: left;
+    line-height: 80%;
+    font-size: 4rem;
+}
+
+nav ol{
+    display: flex;
+    justify-content: space-around;
+}
+section {
+    margin: 4px 2px 8px 2px; 
+    padding: 1.5% 0.8%; 
+    padding-left: 1.2%; 
+    padding-right: 1.2%; 
+    -webkit-border-radius: 5px; 
+    -moz-border-radius: 5px;    
+    border-radius: 5px; 
+}
+section forms{
+    display: grid;
+    row-gap: 0.5rem;
+}
+#basicinformation{
+    height: 50vh;
+}
+
+#description{
+    max-width: 300;
+    display:flex;
+    flex-direction: column;
+}
+#skills{
+    background-color: #F2ACCD;
+    padding: 40px;
+}
+#navigation{
+    display: grid;
+    grid-auto-rows: auto auto auto;
+    gap: 10px;
+    justify-content: center;
+    align-content: center;
+}
+
+#projects {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+#suggestions{
+    background-color: #BF6989;
+    color: white;
+    margin: 20px;
+    border-radius: 10px;
+}
+#suggestions h2{
+    color: white;
+}
+input{
+    border-width: 0px;
+    border-radius: 3px;
+}
+textarea{
+    border-width: 0px;
+    border-radius: 3px;
+}
+button{
+    background-color: white;
+    border-width: 0px;
+    border-radius: 5px;
+}
+#text{
+    padding: 20px;
+    max-width: 350px;
+    line-height: 50px;
+}
+
+#media{
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+}
+#tools{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#tools img{
+    height: 7em;
+    flex-wrap: 1;
+
+}
+iframe{
+    flex-grow: 1;
+}
+#projects .card{
+    height: 15rem;
+}
+
+.container {
+    display: flex;
+    gap: 15px; 
+    height: 50%;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover{
+    -webkit-box-shadow: 3px 3px 1px 0px rgba(235, 234, 234, 0.60);
+    -moz-box-shadow: 3px 3px 1px 0px rgba(235, 234, 234, 0.60);
+    box-shadow: 3px 3px 1px 0px rgba(235, 234, 234, 0.60);
+}
+
+#projects .card{
+    display: flex;
+    position: relative;
+    background-color: #ffbfd4;
+    padding: 20px;
+    border-radius: 15px;
+    overflow: hidden; 
+    transition: background 0.3s ease-in-out;
+}
+#battleship{
+    background-image: url('/resources/sea-battle-board-game-vector-600nw-1672369615.jpg.webp');;
+    background-size: cover;
+}
+#colorstack{
+    background-image: url('/resources/images2.png');
+    background-size: cover;
+}
+#encrypter{
+    background-image: url('/resources/shutterstock-encryption-logo.jpg.webp');;
+    background-size: cover; 
+}
+#akinator{
+    background-image: url('/resources/unnamed.png');;
+    background-size: cover; 
+}
+#projects a{
+    flex-grow: 1;
+    min-width: 150px;
+    color: white;
+    text-decoration: none;
+}
+#projects h2{
+    font-size: 2rem;
+}
+
+#projects .card::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50%;
+    background: linear-gradient(to top, rgba(255, 255, 255, 0.7), transparent);
+    transition: height 0.3s ease-in-out;
+    z-index: 0;
+}
+
+#projects .card:hover::before {
+    height: 100%; 
+}
+h2 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-style:normal;
+}
+li {
+    list-style:none;
+}
+nav a {
+    text-decoration: none;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+
+.subtitle {
+    color: #000000;;
+    text-transform: uppercase;
+}
+
+footer ul{ 
+    display: flex;
+    justify-content:space-around;
+    list-style-type:none;
+}
+
