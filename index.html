@@ -21,13 +21,15 @@
     <section id="basicinformation" class="container">
         <div id="description">
             <h1 class="text">Meet Hailie Jimenez</h1>
-            <p class="text">[descripcion]</p>
+            <p class="text">Estudiante de Computación en la Escuela Superior Politécnica del Litoral.</p>
         </div>
 
-        <div class="card"></div>
+        <img src="resources/picofme.JPG" class="card">
 
         <div id="skills" class=" card">
-            <p>skills </p>
+            <p>Soy una persona apasionada por la generación de soluciones innovadora y eficiente. Cuento con talento
+                creativo, veo por usabilidad y atracción a la aplicación, por lo que estoy orientada en el desarrollo de
+                aplicaciones web y móviles. </p>
         </div>
     </section>
 
@@ -80,19 +82,19 @@
 
         <a href="https://github.com/se0klie/BattleField-Assembly">
             <div id="battleship" class="card">
-                <h2>Assembly</h2>
+                <h2>Battleship Assembly</h2>
             </div>
         </a>
 
         <a href="https://github.com/se0klie/programaEncriptadorAESBLOWFISH">
             <div id="encrypter" class="card">
-                <h2>Akinator</h2>
+                <h2>Encrypter</h2>
             </div>
         </a>
 
-        <a href="https://github.com/se0klie/colorStack"> 
+        <a href="https://github.com/se0klie/colorStack">
             <div id="colorstack" class="card" src="https://github.com/se0klie/AkinatorJavaVer">
-                <h2>Akinator</h2>
+                <h2>ColorStack</h2>
             </div>
         </a>
     </section>
@@ -115,10 +117,13 @@
     </section>
 
     <section id="media">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ?si=hvn2hPX6-_kcFoIZ"
-            title="YouTube video player" frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div class="video-container">
+            <img src="resources/thumbnail.png" alt="Thumbnail" class="thumbnail" onclick="playVideo()">
+            <iframe id="videoIframe" width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="display: none;"></iframe>
+        </div>
 
         <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31896.282394477086!2d-79.96920843738263!3d-2.1401517183711802!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d72f63a84bb9b%3A0xcc923bf175c1350b!2sOficina%20de%20Admisiones%20ESPOL!5e0!3m2!1ses!2sec!4v1728501900769!5m2!1ses!2sec"
@@ -137,6 +142,13 @@
         </div>
     </footer>
 
+    <script>
+        function playVideo() {
+            document.querySelector('.thumbnail').style.display = 'none';
+            document.getElementById('videoIframe').style.display = 'block';
+        }
+
+    </script>
 </body>
 
 </html>
