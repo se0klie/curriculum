@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content ="Hailie Jimenez">
     <title>Hailie Jiménez CV</title>
     <link rel="stylesheet" href="stylesheets/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,23 +19,7 @@
 
 
 <body>
-    <section id="basicinformation" class="container">
-        <div id="description">
-            <h1 class="text">Meet Hailie Jimenez</h1>
-            <p class="text">Estudiante de Computación en la Escuela Superior Politécnica del Litoral.</p>
-        </div>
-
-        <img src="resources/picofme.JPG" class="card">
-
-        <div id="skills" class=" card">
-            <p>Soy una persona apasionada por la generación de soluciones innovadora y eficiente. Cuento con talento
-                creativo, veo por usabilidad y atracción a la aplicación, por lo que estoy orientada en el desarrollo de
-                aplicaciones web y móviles. </p>
-        </div>
-    </section>
-
-
-    <section>
+    <header>
         <nav>
             <ol>
                 <li><a href="#education">Educación</a></li>
@@ -43,6 +28,38 @@
                 <li><a href="#projects">Proyectos.</a></li>
             </ol>
         </nav>
+    </header>
+    <section id="basicinformation" class="container">
+        <div id="description">
+            <h1 class="text">Meet Hailie Jimenez</h1>
+            <p class="text">Estudiante de Computación en la Escuela Superior Politécnica del Litoral.</p>
+        </div>
+
+        <img src="resources/picofme.JPG" class="card">
+
+        <div id="div1" class="skills card">
+            <p>Soy una persona apasionada por la creatividad y la tecnología, con experiencia en el desarrollo de aplicaciones web y móviles.
+                Disfruto combinando mis habilidades técnicas y creativas para diseñar soluciones innovadoras que mejoren la experiencia del usuario
+                y resuelvan problemas complejos.</p>
+        </div>
+        <div id="div2" class="skills card">
+            <p>Soft skills...</p>
+            <ul>
+                <li>Adaptabilidad al ambiente.</li>
+                <li>Trabajo en equipo.</li>
+                <li>Perfeccionista.</li>
+            </ul>
+            <ul>
+                <li>Diseño de sistemas.</li>
+                <li>Moodboards</li>
+                <li>Mock ups.</li>
+            </ul>
+            <p>Skills que no están de más...</p>
+            <ul>
+                <li>Photoshop.</li>
+                <li>Illustrator.</li>
+            </ul>
+        </div>
     </section>
 
     <section id="education">
@@ -56,12 +73,13 @@
     <section id="progskills">
         <h2 class="subtitle">Herramientas que + uso:</h2>
         <div id="tools">
-            <img src="resources/JAVA.png.webp">
-            <img src="resources/python-programming-language.webp">
-            <img src="resources/13407c12f50f08d328800c3caef43f61.jpg">
+            <img src="resources/java.png.webp">
+            <img src="resources/python.webp">
+            <img src="resources/clang.png">
             <img src="resources/J5Yt92WW_400x400.png">
-            <img src="resources/Screenshot 2024-10-24 at 07.41.05.png">
-            <img src="resources/images.png">
+            <img src="resources/javascript.jpg">
+            <img src="resources/html.png">
+            <img src="resources/figma.jpg">
         </div>
     </section>
 
@@ -103,7 +121,7 @@
         <h2 class="subtitle">Contáctame:</h2>
         <forms>
             <label>E-mail:</label>
-            <input style="margin: 5px;" id="email" type="text">
+            <input style="margin: 5px;" id="email" type="text" required>
             <label>Compañia:</label>
             <input style="margin: 5px;" id="enterprise" type="text">
             <div>

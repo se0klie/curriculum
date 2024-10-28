@@ -25,6 +25,7 @@ h1 {
 nav ol {
     display: flex;
     justify-content: space-around;
+    padding-top: 10px;
 }
 
 section {
@@ -47,9 +48,11 @@ section forms {
     height: 50vh;
     display: flex;
 }
-
-@media (max-width: 800px) {
+@media (max-width: 900px) {
     #skills{
+        display: none;
+    }
+    #div1{
         display: none;
     }
 }
@@ -67,10 +70,13 @@ section forms {
     color: white;
 }
 
-#skills {
+.skills {
     background-color: #E0DFFE;
     padding: 10px;
     text-align: justify;
+    overflow: scroll;
+    height: fit-content;
+    max-height: 100%;
 }
 
 #navigation {
@@ -109,12 +115,6 @@ input {
 textarea {
     border-width: 0px;
     border-radius: 3px;
-}
-
-button {
-    background-color: white;
-    border-width: 0px;
-    border-radius: 5px;
 }
 
 #text {
@@ -162,11 +162,6 @@ iframe {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.card:hover {
-    -webkit-box-shadow: 3px 3px 1px 0px rgba(235, 234, 234, 0.60);
-    -moz-box-shadow: 3px 3px 1px 0px rgba(235, 234, 234, 0.60);
-    box-shadow: 3px 3px 1px 0px rgba(235, 234, 234, 0.60);
-}
 
 #projects .card {
     display: flex;
@@ -179,24 +174,24 @@ iframe {
 }
 
 #akinator {
-    background-image: url('/resources/unnamed.png');
+    background-image: url('/resources/akinator.png');
     ;
     background-size: cover;
 }
 
 #battleship {
-    background-image: url('/resources/sea-battle-board-game-vector-600nw-1672369615.jpg.webp');
+    background-image: url('/resources/battleship.jpg.webp');
     ;
     background-size: cover;
 }
 
 #colorstack {
-    background-image: url('/resources/images2.png');
+    background-image: url('/resources/colorstack.png');
     background-size: cover;
 }
 
 #encrypter {
-    background-image: url('/resources/shutterstock-encryption-logo.jpg.webp');
+    background-image: url('/resources/encryption.jpg.webp');
     ;
     background-size: cover;
 }
@@ -237,6 +232,9 @@ h2 {
 
 li {
     list-style: none;
+}
+.skills li{
+    list-style-type: disc;
 }
 
 nav a {
