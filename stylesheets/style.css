@@ -174,24 +174,24 @@ iframe {
 }
 
 #akinator {
-    background-image: url('/resources/akinator.png');
+    background-image: url('resources/akinator.png');
     ;
     background-size: cover;
 }
 
 #battleship {
-    background-image: url('/resources/battleship.jpg.webp');
+    background-image: url('resources/battleship.webp');
     ;
     background-size: cover;
 }
 
 #colorstack {
-    background-image: url('/resources/colorstack.png');
+    background-image: url('resources/colorstack.png');
     background-size: cover;
 }
 
 #encrypter {
-    background-image: url('/resources/encryption.jpg.webp');
+    background-image: url('resources/encryption.webp');
     ;
     background-size: cover;
 }
